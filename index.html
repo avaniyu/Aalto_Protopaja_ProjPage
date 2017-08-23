@@ -130,8 +130,8 @@
               <img class="img-fluid" src="img/portfolio/01-thumbnail.jpeg" alt="">              
             </div>
             <div class="portfolio-caption">
-              <h4>Exoskeleton</h4>
-              <p class="text-muted">Prototype and Test</p>
+              <h4>Hand</h4>
+              <p class="text-muted">Exoskeleton Prototype</p>
             </div>
           </div>
           <div class="col-md-4 col-sm-6 portfolio-item">
@@ -145,8 +145,8 @@
               <img class="img-fluid" src="img/portfolio/02-thumbnail.png" alt="">
             </div>
             <div class="portfolio-caption">
-              <h4>Simulation</h4>
-              <p class="text-muted">Robot Movement</p>
+              <h4>Arm and Shoulder</h4>
+              <p class="text-muted">Exoskeleton Prototype</p>
             </div>
           </div>
           <div class="col-md-4 col-sm-6 portfolio-item">
@@ -156,11 +156,11 @@
                   <i class="fa fa-plus fa-3x"></i>
                 </div>
               </div>
-              <img class="img-fluid" src="img/portfolio/03-thumbnail.jpg" alt="">
+              <img class="img-fluid" src="img/portfolio/03-thumbnail.png" alt="">
             </div>
             <div class="portfolio-caption">
-              <h4>Finish</h4>
-              <p class="text-muted">Identity</p>
+              <h4>Simulation</h4>
+              <p class="text-muted">Robot Movement</p>
             </div>
           </div>
 <!--           <div class="col-md-4 col-sm-6 portfolio-item">
@@ -205,9 +205,9 @@
               <p class="text-muted">Photography</p>
             </div>
           </div> -->
-          <div class="col-md-6 col-sm-6 portfolio-item">
+<!--           <div class="col-md-6 col-sm-6 portfolio-item">
             <iframe width="560" height="315" src="https://www.youtube.com/embed/-Z6jyI-hKvE?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
-          </div>
+          </div> -->
 
         </div>
       </div>
@@ -578,8 +578,8 @@
               <div class="col-lg-8 mx-auto">
                 <div class="modal-body">
                   <!-- Project Details Go Here -->
-                  <h2>Exoskeleton Hand</h2>
-                  <p class="item-intro text-muted">Housing the body motion mapping magnetic rotary encoder system.</p>
+                  <h2>Hand</h2>
+                  <p class="item-intro text-muted">Exoskeleton part 1.</p>
                   <!-- <img class="img-fluid d-block mx-auto" src="img/portfolio/01-full.jpg" alt=""> -->
                   <p>A mechanical exoskeleton system is under implementation for housing the body motion mapping magnetic rotary encoder system. The main purpose is to provide robust attachment and positioning of the joint angle sensors so that they are located and rotated on the desired axises of the human body. The initial 3D models were crafted in a 3D modelling CAD software based on these sketches.</p>
                   <img class="img-fluid d-block mx-auto" src="img/portfolio/01-full-0.png" alt=""> 
@@ -617,19 +617,21 @@
               <div class="col-lg-8 mx-auto">
                 <div class="modal-body">
                   <!-- Project Details Go Here -->
-                  <h2>Project Name</h2>
-                  <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                  <h2>Arm and Shoulder</h2>
+                  <p class="item-intro text-muted">Exoskeleton part 2.</p>
                   <!-- <img class="img-fluid d-block mx-auto" src="img/portfolio/02-full.jpg" alt=""> -->
-                  <img class="img-fluid d-block mx-auto" src="img/portfolio/02-full.png" alt="">
-                  <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                  <ul class="list-inline">
+                  <p>First some background research was conducted on other exoskeletons and robots to find out how joints on the arms and shoulders have been implemented in other projects. Based on the research the most suitable assembly of joints was sketched out. The latest sketch is shown in Figure 8. This sketch shows four main joints: two around the shoulder, a rotational one at the bicep, and one at the elbow.</p>
+                  <img class="img-fluid d-block mx-auto" src="img/portfolio/02-full-0.png" alt="">
+                  <p>Quick mock-ups (one shown in the picture below.) were constructed based on the design in the sketches, out of cheap readily available materials such as styrofoam, cardboard and cable ties. As to be expected, the design needed some modification: To properly rotate the arm without it breaking it needed an additional rotatory joint under the shoulder blade. Two more rotational joints along the arm were also found necessary.</p>
+                  <img class="img-fluid d-block mx-auto" src="img/portfolio/02-full-1.png" alt="">
+<!--                   <ul class="list-inline">
                     <li>Date: January 2017</li>
                     <li>Client: Explore</li>
                     <li>Category: Graphic Design</li>
-                  </ul>
+                  </ul> -->
                   <button class="btn btn-primary" data-dismiss="modal" type="button">
                     <i class="fa fa-times"></i>
-                    Close Project</button>
+                    Close Topic</button>
                 </div>
               </div>
             </div>
@@ -652,18 +654,18 @@
               <div class="col-lg-8 mx-auto">
                 <div class="modal-body">
                   <!-- Project Details Go Here -->
-                  <h2>Project Name</h2>
-                  <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                  <img class="img-fluid d-block mx-auto" src="img/portfolio/03-full.jpg" alt="">
-                  <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                  <ul class="list-inline">
+                  <h2>Simulation</h2>
+                  <p class="item-intro text-muted">Robot Movement.</p>
+                  <img class="img-fluid d-block mx-auto" src="img/portfolio/03-full.png" alt="">
+                  <p>Having a simulation environment for the InMoov allows the testing of implemented features without having the access to the physical robot itself. The simulation is implemented within ROS by using a unified robot description format (URDF) -model in conjunction with publishing desired states for joints matching the physical InMoov. The model can then be visualized within RViz in real-time. The URDF-files used are cloned from a third party open-source project <a href="https://github.com/alansrobotlab/inmoov_ros">InMoov_Ros</a> and the official InMoov 3D-model files are used for visualization. Model visualization is shown below.</p>
+<!--                   <ul class="list-inline">
                     <li>Date: January 2017</li>
                     <li>Client: Finish</li>
                     <li>Category: Identity</li>
-                  </ul>
+                  </ul> -->
                   <button class="btn btn-primary" data-dismiss="modal" type="button">
                     <i class="fa fa-times"></i>
-                    Close Project</button>
+                    Close Topic</button>
                 </div>
               </div>
             </div>
